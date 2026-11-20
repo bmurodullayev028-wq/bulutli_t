@@ -1,0 +1,1 @@
+web: gunicorn bulutli_t:app
