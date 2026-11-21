@@ -106,10 +106,9 @@ HTML_SHABLON = """
     <div class="container">
         <div class="badge">● Muhit: {{ muhit }}</div>
 
-        <h1 class="main-title">
-            Murodullayev Bekzodning bulutli texnalogiyalar fanidan <span class="highlight1-mustaqil">mustaqil ishi</span>
+<h1 class="main-title">
+            Murodullayev Bekzodning bulutli texnologiyalar fanidan 1-<span class="highlight-mustaqil">mustaqil ishi</span>
         </h1>
-
         <div class="form-group">
             <input type="text" id="sarlavha" placeholder="Yangi bosqich yoki izoh...">
             <input type="text" id="holat" placeholder="Holati (masalan: Tekshirildi)">
