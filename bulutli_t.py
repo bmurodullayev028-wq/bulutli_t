@@ -31,7 +31,7 @@ HTML_SHABLON = """
             border: 1px solid #334155;
             border-radius: 18px;
             padding: 36px;
-            max-width: 720px;
+            max-width: 740px;
             width: 100%;
             box-shadow: 0 24px 50px rgba(0, 0, 0, 0.55);
         }
@@ -54,12 +54,11 @@ HTML_SHABLON = """
             margin-bottom: 24px;
         }
         .highlight-mustaqil {
-            font-size: 34px;
+            font-size: 28px;
             font-weight: 800;
             color: #38bdf8;
-            letter-spacing: 0.4px;
-            display: inline-block;
-            margin: 0 4px;
+            letter-spacing: 0.3px;
+            white-space: nowrap;
             text-shadow: 0 0 18px rgba(56, 189, 248, 0.28);
         }
         .form-group {
@@ -106,9 +105,10 @@ HTML_SHABLON = """
     <div class="container">
         <div class="badge">● Muhit: {{ muhit }}</div>
 
-<h1 class="main-title">
-            Murodullayev Bekzodning bulutli texnologiyalar fanidan 1-<span class="highlight-mustaqil">mustaqil ishi</span>
+        <h1 class="main-title">
+            Murodullayev Bekzodning bulutli texnologiyalar fanidan <span class="highlight-mustaqil">1-mustaqil ishi</span>
         </h1>
+
         <div class="form-group">
             <input type="text" id="sarlavha" placeholder="Yangi bosqich yoki izoh...">
             <input type="text" id="holat" placeholder="Holati (masalan: Tekshirildi)">
